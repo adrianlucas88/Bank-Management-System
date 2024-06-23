@@ -11,6 +11,8 @@ We can include header files in C by using one of the given two syntax whether it
 The “#include” preprocessor directs the compiler that the header file needs to be processed before compilation and includes all the necessary data types and function definitions. */
 #ifndef TRANSACTION_H
 #define TRANSACTION_H
+#include "deposit.c"
+#include "withdrawal.c"
 
 void deposit();
 void withdrawal();

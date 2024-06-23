@@ -11,7 +11,8 @@ We can include header files in C by using one of the given two syntax whether it
 The “#include” preprocessor directs the compiler that the header file needs to be processed before compilation and includes all the necessary data types and function definitions. */
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
-
+#include "create_account.c"
+#include "view_account.c"
 void create_account();
 void view_account();
 

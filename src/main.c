@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "auth.h"
-#include "account.h"
-#include "transaction.h"
+#include "auth/auth.h"
+#include "account/account.h"
+#include "transaction/transaction.h"
 
 int main() {
     // Display a simple menu for the bank management system
@@ -43,6 +43,8 @@ int main() {
             default:
                 printf("Invalid choice. Please try again.\n");
         }
+ 
     }
     return 0;
 }
+
